@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Surprise!</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function showMessage() {
+      document.getElementById('hidden-msg').style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h2>Surprise! 🎉</h2>
+    <p>
+      I prepared something just for you...<br>
+      <button onclick="showMessage()" class="button">Click to Reveal</button>
+    </p>
+    <div id="hidden-msg" style="display:none; margin-top: 20px;">
+      <h3>Here’s a secret just for you:</h3>
+      <p>You're my world, my happiness, my everything. Love you always!</p>
+    </div>
+    <a href="gallery.html" class="button">Photo & Video Gallery »</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe Script', cursive, sans-serif;
+  background: #ffe6ec;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff5fa;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0  18px #ffb7d1;
+  text-align: center;
+}
+.button {
+  display: inline-block;
+  margin: 20px 10px;
+  padding: 10px 30px;
+  background: #e75480;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  text-decoration: none;
+}
+.main-photo, .gallery img, .gallery video {
+  border-radius: 20px;
+  margin: 10px;
+  width: 200px;
+  max-width: 85%;
+  max-height: 280px;
+  object-fit: cover;
+  box-shadow: 0 2px 10px #ffb7d1;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+/* Simple Rose CSS Example */
+.rose {
+  position: relative;
+  width: 100px;
+  height: 180px;
+  margin: 0 auto 20px;
+}
+.rose-petal {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #e75480;
+  border-radius: 60px 60px 0 0;
+  top: 0;
+  left: 20px;
+  transform: rotate(-20deg);
+}
+.petal2 { transform: rotate(20deg); left: 10px; top: 10px; }
+.petal3 { transform: rotate(0deg); left: 30px; top: 20px; background: #ffb7d1; }
+.petal4 { width: 30px; height: 30px; left: 45px; top: 40px; background: #ffb7d1; }
+.rose-leaf {
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  background: #63b265;
+  border-radius: 0 0 30px 30px;
+  top: 100px;
+}
+.leaf1 { left: 5px; }
+.leaf2 { left: 65px; }
+.rose-stem {
+  position: absolute;
+  width: 6px;
+  height: 100px;
+  background: #417505;
+  top: 60px;
+  left: 47px;
+  border-radius: 3px;
+}
